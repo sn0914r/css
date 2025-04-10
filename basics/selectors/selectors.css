@@ -1,0 +1,18 @@
+/* Selectors */
+.selectors .adjacent-selector + p{
+    background: blue;
+}
+.selectors .general-sibling-selector ~ p{
+    background: pink;
+}
+
+.selectors input[type]{
+    border: 2px solid red;
+}
+.selectors input[type="email"]{
+    background-color: aqua;
+}
+
+.selectors input[type="email"][class="sameClassName"]::placeholder{
+    color: blue;
+}

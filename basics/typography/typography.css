@@ -1,0 +1,5 @@
+.font{
+    font: italic small-caps lighter 32px/16px 'Arial', 'sarif';
+    text-decoration: underline dashed palevioletred;
+    text-align: center;
+}
