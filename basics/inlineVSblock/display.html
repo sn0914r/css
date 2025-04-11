@@ -1,0 +1,52 @@
+<div class="block"
+style="
+display: block;
+background-color: yellow;
+
+/* this below props are accepted*/
+height:100px; 
+width: 90%;
+">
+    this is a block level element, occupies full width.
+</div>
+
+<br>
+
+<div class="inline"
+style="
+display: inline;
+background-color: aqua;
+
+/* this below props are ignored*/
+height: 100px;
+width: 90%;
+">
+    this is a inline level element, occupies the max-content width.
+</div>
+
+<br>
+<br>
+
+<div class="inline"
+style="
+display: inline-block;
+background-color: blue;
+
+/* this below props are accepted*/
+height: 100px;
+width: 200px;
+">
+    this is a inline-block level element, stays on the same line and allows height & width.
+</div>
+
+<div class="inline"
+style="
+display: inline-block;
+background-color: pink;
+
+/* this below props are accepted*/
+height: 100px;
+width: 200px;
+">
+    this is a inline-block level element, stays on the same line and allows height & width.
+</div>
