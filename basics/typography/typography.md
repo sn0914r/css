@@ -38,22 +38,3 @@
 10. `font-variant`: `small-caps | normal`
 11. `short-hand for font` : 
 `font: <style> <variant> <weight> <size>/<line-height> [family]`
-
-#### 2. borders
-1. `border` is the short hand for `border-width`, `border-style`, `border-color`. 
-2. The synatx is : `border: <thickness> <style> <color>`
-3. `values`:
-    - `<thickness>`: `<units>`
-    - `<style>`: `solid | dashed | double | groove | none`
-     `<color>` : colors
-4. we can set the border for individual sides using the following props:
-    - `border-top`
-    - `border-bottom`
-    - `border-left`
-    - `border-right`
-5. `border-radius`: It is used to make rounded corners for elments. It takes `<units>` as value.
-6. we can make rounded corner at an indivial side using the following props:
-    - `border-top-left-radius`
-    - `border-top-right-radius`
-    - `border-bottom-right-radius`
-    - `border-bottom-left-radius`
