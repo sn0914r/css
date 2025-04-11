@@ -1,0 +1,82 @@
+<div class="static-container"
+style="
+position: static;
+top: 100px; /*ignored*/
+background-color: yellow;
+
+aspect-ratio: 1;
+border: 1px solid #000;
+">
+    <div class="relative-container"
+    style="
+    position: relative;
+    top: 20px; left: 30px; /* accepts & starts from the */
+
+    width: 60%;
+    background-color: pink;
+    aspect-ratio: 1;
+    border: 2px solid red;
+    ">
+
+        <div class="static-container-2" style="
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 60%;
+        background-color: lightblue;
+        aspect-ratio: 1;
+        border: 2px solid blue;">
+
+            <div class="absolute-container" style="
+            
+            position: absolute; /* it's relative to nearest relative ancestor so it skips '.static-container-2' and takes '.relative-container' as its parent */
+            right: 0;
+
+            width: 50%;
+            aspect-ratio: 1;
+            background-color: bisque;
+            ">
+
+            </div>
+
+        </div>
+        
+    </div>
+
+</div>
+
+<div class="fixed-and-sticky-container" style="width: 200px; height: 200vh;">
+    
+    <div class="fixed"
+    style="
+    position: fixed;
+    top: 0;
+
+    width: 90%;
+    height: 40px;
+    margin: 2px;
+    border:4px solid brown;
+    background-color: cadetblue;
+
+    z-index: 100; /* places it at top layer */
+
+    ">fixed div</div>
+
+    <div class="sticky"
+    style="
+
+    position: sticky;
+    top: 0;
+
+    width: 90%;
+    height: 50px;
+    margin: 2px;
+    border:4px solid cadetblue;
+    background-color:yellowgreen;
+
+    z-index: 10; /* places it under fixed */
+    ">
+        sticky div
+    </div>
+</div>
+
+<div style="height: 100vh;"></div>
