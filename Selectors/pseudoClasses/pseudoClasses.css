@@ -1,0 +1,45 @@
+/* links pseudo classes */
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bold;
+    color: tomato;
+}
+a:visited{
+    color: black;
+}
+a:active{
+    font-size: larger;
+    color: violet;
+}
+
+/* input psuedo selector */
+
+input[type="radio"]:checked{
+    accent-color: red;
+}
+input[type="text"]:disabled{
+    background-color: green;
+}
+input[type="text"]:enabled{
+    background-color: skyblue;
+}
+input[type="text"]:focus{
+    background-color:blueviolet;
+}
+input[type="text"]:required{
+    background-color:red;
+}
+input[type="number"]:in-range{
+    background-color:greenyellow;
+}
+input[type="number"]:out-of-range{
+    background-color:maroon;
+}
+input[type="email"]:valid{
+    background-color: yellowgreen;
+}
+input[type="email"]:invalid{
+    background-color: red;
+}
